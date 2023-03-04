@@ -11,6 +11,10 @@ public abstract class Person {
         this.age = age;
     }
 
+    public static void print() {
+        System.out.println("Хто не скаче, той москаль");
+    }
+
     public String getName() {
         return name;
     }
