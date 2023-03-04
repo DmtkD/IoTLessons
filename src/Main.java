@@ -24,7 +24,6 @@ public class Main {
         List<Person> personList = new ArrayList<>();
         personList.add(student);
         personList.add(employee);
-        System.out.println(personList);
 
     }
 }
