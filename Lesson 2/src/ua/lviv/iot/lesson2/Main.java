@@ -65,7 +65,7 @@ public class Main {
         // automatic sorted
         System.out.println("\n TreeSet");
 
-        System.out.println(new LinkedList<>(set.stream().sorted().toList()));
+        System.out.println(new LinkedList<Object>(set.stream().sorted().toList()));
 
         Set<String> set1 = new TreeSet<>();
 
